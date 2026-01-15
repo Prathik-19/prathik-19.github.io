@@ -13,7 +13,7 @@ const Resume = () => {
         <div className="resume-content">
           <div className="resume-buttons">
             <a 
-              href="/resume.pdf" 
+              href={process.env.PUBLIC_URL + "/resume.pdf"} 
               target="_blank" 
               rel="noopener noreferrer" 
               className="btn btn-primary resume-btn"
