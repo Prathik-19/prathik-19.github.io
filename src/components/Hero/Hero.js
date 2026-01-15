@@ -101,7 +101,7 @@ const Hero = () => {
         
         <div className="profile-card">
           <div className="profile-img">
-            <img src="/images/profile-photo.jpg" alt="Prathik Kallepalli" />
+            <img src={process.env.PUBLIC_URL + "/images/profile-photo.jpg"} alt="Prathik Kallepalli" />
           </div>
         </div>
       </div>
